@@ -1,0 +1,25 @@
+<mat-toolbar color='primary'>
+  <span>Hello User </span>
+  <div class="spacer"></div>
+  <a [routerLink]="['/']">
+    <h3> My Store</h3>
+  </a>
+  <a mat-button>Orders</a>
+
+  <a mat-button>Rewards</a>
+  <a mat-button>Cart</a>
+
+
+  <a routerLink="/cart" class="button fancy-button">
+    <i class="material-icons">shopping_cart</i>Checkout
+  </a>
+  <a mat-raised-button color="accent">Logout</a>
+</mat-toolbar>
+
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
